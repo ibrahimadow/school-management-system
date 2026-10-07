@@ -1,0 +1,40 @@
+.receipts-section {
+  margin-top: 24px;
+}
+
+.receipts-section > h3 {
+  color: #0b2b5c;
+  margin-bottom: 10px;
+}
+
+.receipt-card {
+  background: white;
+  border: 1px dashed #0b2b5c;
+  border-radius: 8px;
+  padding: 16px 18px;
+  margin-bottom: 14px;
+}
+
+.receipt-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  color: #777;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+}
+
+.receipt-body p {
+  margin: 4px 0;
+  color: #333;
+  font-size: 0.92rem;
+}
+
+.receipt-amount {
+  color: #0b2b5c;
+  font-size: 1rem;
+  margin-top: 8px;
+  border-top: 1px solid #eee;
+  padding-top: 8px;
+}

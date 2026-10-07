@@ -1,0 +1,62 @@
+.report-card-header {
+  position: relative;
+}
+
+.edit-btn {
+  margin-left: auto;
+  background: #f4c531;
+  color: #0b2b5c;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.82rem;
+  cursor: pointer;
+}
+
+.edit-btn:hover {
+  background: #e0b420;
+}
+
+.edit-score-input {
+  width: 70px;
+  padding: 4px 6px;
+  border: 1px solid #0b2b5c;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.edit-actions {
+  display: flex;
+  gap: 10px;
+  border-top: 1px dashed #ccc;
+  padding-top: 14px;
+}
+
+.save-edit-btn {
+  background: #0b2b5c;
+  color: #f4c531;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.save-edit-btn:hover {
+  background: #0d3670;
+}
+
+.cancel-edit-btn {
+  background: #eee;
+  color: #555;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.cancel-edit-btn:hover {
+  background: #e0e0e0;
+}

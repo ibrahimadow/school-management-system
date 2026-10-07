@@ -1,0 +1,273 @@
+.grades-content {
+  padding: 30px;
+  max-width: 620px;
+  margin: 0 auto;
+}
+
+.grades-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.grades-form > label {
+  font-size: 0.9rem;
+  color: #333;
+  font-weight: 500;
+}
+
+.grades-form > input {
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+.grades-form h3 {
+  color: #0b2b5c;
+  margin: 14px 0 4px;
+}
+
+.subject-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 16px;
+}
+
+.subject-row {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.subject-row label {
+  font-size: 0.82rem;
+  color: #444;
+}
+
+.subject-row input {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+.grades-form button {
+  background-color: #0b2b5c;
+  color: #f4c531;
+  font-weight: 600;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 18px;
+  font-size: 1rem;
+}
+
+.grades-form button:hover {
+  background-color: #0d3670;
+}
+
+.report-section {
+  margin-top: 30px;
+}
+
+.report-section > h3 {
+  color: #0b2b5c;
+  margin-bottom: 12px;
+}
+
+.report-card {
+  background: white;
+  border: 2px solid #0b2b5c;
+  border-radius: 10px;
+  padding: 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+.report-card-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  border-bottom: 3px solid #f4c531;
+  padding-bottom: 14px;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.report-logo {
+  height: 55px;
+  width: 55px;
+}
+
+.report-header-text h2 {
+  color: #0b2b5c;
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.report-header-text p {
+  margin: 2px 0 0;
+  font-size: 0.78rem;
+  color: #777;
+  letter-spacing: 0.3px;
+}
+
+.edit-btn {
+  margin-left: auto;
+  background: #f4c531;
+  color: #0b2b5c;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.82rem;
+  cursor: pointer;
+}
+
+.edit-btn:hover {
+  background: #e0b420;
+}
+
+.report-meta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 20px;
+  background: #f7f9fc;
+  border-radius: 6px;
+  padding: 12px 16px;
+  margin-bottom: 16px;
+}
+
+.meta-label {
+  display: block;
+  font-size: 0.72rem;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+}
+
+.meta-value {
+  display: block;
+  font-size: 0.92rem;
+  color: #222;
+  font-weight: 600;
+}
+
+.report-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 18px;
+}
+
+.report-table th {
+  text-align: left;
+  background: #0b2b5c;
+  color: #f4c531;
+  padding: 8px 10px;
+  font-size: 0.82rem;
+}
+
+.report-table th:first-child { border-radius: 6px 0 0 6px; }
+.report-table th:last-child { border-radius: 0 6px 6px 0; }
+
+.report-table td {
+  padding: 8px 10px;
+  border-bottom: 1px solid #eee;
+  font-size: 0.9rem;
+}
+
+.edit-score-input {
+  width: 70px;
+  padding: 4px 6px;
+  border: 1px solid #0b2b5c;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.mini-grade {
+  display: inline-block;
+  padding: 1px 8px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+.report-footer {
+  display: flex;
+  gap: 20px;
+  border-top: 1px dashed #ccc;
+  padding-top: 14px;
+  flex-wrap: wrap;
+}
+
+.footer-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.footer-stat.remark {
+  flex: 1;
+}
+
+.footer-value {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #0b2b5c;
+}
+
+.grade-badge {
+  display: inline-block;
+  padding: 3px 14px;
+  border-radius: 5px;
+  font-weight: 800;
+  font-size: 1.1rem;
+  width: fit-content;
+}
+
+.edit-actions {
+  display: flex;
+  gap: 10px;
+  border-top: 1px dashed #ccc;
+  padding-top: 14px;
+}
+
+.save-edit-btn {
+  background: #0b2b5c;
+  color: #f4c531;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.save-edit-btn:hover {
+  background: #0d3670;
+}
+
+.cancel-edit-btn {
+  background: #eee;
+  color: #555;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.cancel-edit-btn:hover {
+  background: #e0e0e0;
+}
+
+.grade-A { background: #d7f5dd; color: #1b7a34; }
+.grade-B { background: #dbeafe; color: #1d4ed8; }
+.grade-C { background: #fef9c3; color: #92700c; }
+.grade-D { background: #ffe4c2; color: #9a5b00; }
+.grade-E { background: #fbdadb; color: #c0392b; }

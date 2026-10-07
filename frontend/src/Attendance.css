@@ -1,0 +1,22 @@
+.summary-box {
+  margin-top: 24px;
+  background: #f4f8ff;
+  border: 1px solid #cfe0f5;
+  border-radius: 8px;
+  padding: 16px 20px;
+}
+
+.summary-box h3 {
+  color: #0b2b5c;
+  margin: 0 0 8px;
+}
+
+.summary-box ul {
+  margin: 10px 0 0;
+  padding-left: 18px;
+}
+
+.summary-box li {
+  margin-bottom: 4px;
+  color: #333;
+}
